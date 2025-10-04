@@ -1,4 +1,4 @@
-# Plataforma-Bet — Repositório
+# Plataforma ClouFix — Repositório
 
 Este repositório contém automações, manifests Kubernetes e scripts Terraform para provisionamento e gestão de uma plataforma (EKS, ALB, RDS, ECR, etc.). Este README entrega um guia prático para configurar, testar e operar os workflows e scripts que existem aqui.
 
