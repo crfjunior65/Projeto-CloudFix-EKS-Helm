@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 # Plataforma ClouFix — Repositório
+=======
+# Projeto CloudFix — Repositório
+>>>>>>> 4c2e13d (Primeiro commit)
 
 Este repositório contém automações, manifests Kubernetes e scripts Terraform para provisionamento e gestão de uma plataforma (EKS, ALB, RDS, ECR, etc.). Este README entrega um guia prático para configurar, testar e operar os workflows e scripts que existem aqui.
 
 ## Visão geral
 
-- Infraestrutura: código e scripts em `terraform-aws/`.
+- Infraestrutura: código e scripts em `terraform/`.
 - Manifests Kubernetes: `k8s/`.
 - Workflows GitHub Actions: `.github/workflows/` (CI, validações e automação de infra).
 - Scripts auxiliares: `terraform-aws/UpTerraform.sh`, `terraform-aws/DwnTerraform.sh` (há backups `.bak`).
