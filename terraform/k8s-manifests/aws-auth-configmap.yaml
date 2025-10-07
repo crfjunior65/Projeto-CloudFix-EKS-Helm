@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aws-auth
+  namespace: kube-system
+data:
+  mapRoles: |
+    - rolearn: ${eks_viewer_role_arn}
+      username: eks-viewer
+      groups:
+        - eks-viewers
