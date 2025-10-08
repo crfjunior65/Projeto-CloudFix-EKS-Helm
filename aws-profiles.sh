@@ -71,6 +71,7 @@ use_profile() {
     # Testa a conexão
     echo "Testando conexão..."
     aws sts get-caller-identity --query "Arn" --output text
+    echo $AWS_PROFILE
 }
 
 # Função para deletar um perfil

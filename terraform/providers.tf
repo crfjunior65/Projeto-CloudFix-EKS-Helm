@@ -19,16 +19,19 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "s3-cloudfix-shield-tfstate"
+    bucket  = "cloudfix-tfstate"
     key     = "terraform.tfstate"
     region  = "us-east-1"
     encrypt = true
+    #profile = "var.awsProfile"
+    profile = "crfjunior-outlook"
     #dynamodb_table = "terraform-locks"
   }
 }
 
 provider "aws" {
-  region = var.region
+  region  = var.region
+  profile = var.awsProfile
 
   default_tags {
     tags = local.common_tags

@@ -16,5 +16,17 @@ terraform {
 }
 
 provider "aws" {
-  region = var.regionProject
+  region  = var.regionProject
+  profile = var.awsProfile
 }
+
+variable "awsProfile" {
+  description = "AWS Profile"
+  type        = string
+  default     = "crfjunior-outlook"
+}
+
+#variable "regionProject" {
+#  description = "Define a região de execuçaõ do projeto"
+#  default     = "us-east-1"
+#}

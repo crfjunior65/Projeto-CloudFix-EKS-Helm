@@ -27,7 +27,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_projectName"></a> [projectName](#input\_projectName) | Nome do projeto -Sera usado para criar o nome da task, service, roles e container- | `string` | `"s3-cloudfix-shield-tfstate"` | no |
+| <a name="input_awsProfile"></a> [awsProfile](#input\_awsProfile) | AWS Profile | `string` | `"crfjunior-outlook"` | no |
+| <a name="input_projectName"></a> [projectName](#input\_projectName) | Nome do projeto -Sera usado para criar o nome da task, service, roles e container- | `string` | `"cloudfix-tfstate"` | no |
 | <a name="input_regionProject"></a> [regionProject](#input\_regionProject) | Define a região de execuçaõ do projeto | `string` | `"us-east-1"` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Tags padrão para o bucket S3 | `map(string)` | <pre>{<br>  "Environment": "homologation",<br>  "ManagedBy": "terraform",<br>  "Owner": "devops-team",<br>  "Projeto": "cloudfix"<br>}</pre> | no |
 

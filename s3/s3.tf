@@ -30,7 +30,7 @@ variable "regionProject" {
 
 variable "projectName" {
   description = "Nome do projeto -Sera usado para criar o nome da task, service, roles e container-"
-  default     = "s3-cloudfix-shield-tfstate"
+  default     = "cloudfix-tfstate"
 }
 
 variable "tags" {

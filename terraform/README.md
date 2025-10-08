@@ -12,7 +12,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.13.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.15.0 |
 | <a name="provider_helm"></a> [helm](#provider\_helm) | 2.17.0 |
 | <a name="provider_time"></a> [time](#provider\_time) | 0.13.1 |
 
@@ -48,6 +48,7 @@
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_LABEL"></a> [LABEL](#input\_LABEL) | Tipo de agregação para métricas (AVG, MAX, MIN, SUM) | `string` | `"AVG"` | no |
+| <a name="input_awsProfile"></a> [awsProfile](#input\_awsProfile) | AWS Profile to use for authentication | `string` | `"default"` | no |
 | <a name="input_bastion_instance_type"></a> [bastion\_instance\_type](#input\_bastion\_instance\_type) | Tipo de instância para o Bastion Host | `string` | `"t3.micro"` | no |
 | <a name="input_db_name"></a> [db\_name](#input\_db\_name) | Nome do banco de dados | `string` | `"cloudfix-postgres"` | no |
 | <a name="input_db_password"></a> [db\_password](#input\_db\_password) | Senha do banco de dados | `string` | `"cloudfix_password"` | no |

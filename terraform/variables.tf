@@ -205,3 +205,9 @@ variable "trusted_users_arns" {
   type        = list(string)
   default     = []
 }
+
+variable "awsProfile" {
+  description = "AWS Profile to use for authentication"
+  type        = string
+  default     = "default"
+}

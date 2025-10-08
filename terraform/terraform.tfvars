@@ -1,9 +1,10 @@
 # Configurações AWS
-region = "us-east-1"
+region     = "us-east-1"
+awsProfile = "crfjunior-outlook"
 
 # EKS Configuration
 eks_cluster_name          = "cloudfix-cluster"
-node_group_instance_types = ["t3.large"]
+node_group_instance_types = ["t3.medium"] ###  , "t3.large"]
 eks_version               = "1.33"
 # Recursos do Cluster
 node_group_name         = "cloudfix-nodes"
